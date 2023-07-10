@@ -6,10 +6,10 @@
 
   (paper "A4")
   (title_block
-    (title "Corne Cherry")
+    (title "Dorne")
     (date "2020-09-28")
     (rev "3.0.1")
-    (company "foostan")
+    (company "foostan/daveterra")
   )
 
   (layers
