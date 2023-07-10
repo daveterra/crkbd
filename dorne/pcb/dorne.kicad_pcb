@@ -5621,11 +5621,11 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005a5e14c2")
     (attr through_hole)
-    (fp_text reference "U1" (at -0.1 -0.05 270) (layer "F.SilkS") hide
+    (fp_text reference "U3" (at -0.1 -0.05 270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bfc4fa71-d7a2-4147-9329-76afec8a1653)
     )
-    (fp_text value "ProMicro" (at -0.45 -17) (layer "F.Fab") hide
+    (fp_text value "NiceNano" (at -0.45 -17) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b7738360-26c8-42ee-a5fb-ca7727a166c8)
     )
@@ -6692,7 +6692,7 @@
 
   (footprint "kbd:D3_SMD_v2" (layer "B.Cu")
     (tedit 5F1A9D7F) (tstamp 00000000-0000-0000-0000-00005f1517ad)
-    (at 115.1325 92.105 -90)
+    (at 95.0575 88.655 -90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "dorne.kicad_sch")
@@ -6719,7 +6719,7 @@
     (pad "1" smd rect locked (at -1.775 0 270) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "row3") (pinfunction "K") (pintype "passive") (tstamp 6d343343-1668-47be-a3f1-a50cd9544419))
     (pad "2" smd rect locked (at 1.775 0 270) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 24 "Net-(D20-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 11702326-5d59-49b4-8680-12d9618b7bbe))
+      (net 23 "Net-(D19-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 11702326-5d59-49b4-8680-12d9618b7bbe))
     (model "${KIGITHUB3D}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6729,7 +6729,7 @@
 
   (footprint "kbd:D3_SMD_v2" (layer "B.Cu")
     (tedit 5F1A9D7F) (tstamp 00000000-0000-0000-0000-00005f1517bc)
-    (at 95.1645 88.765 -90)
+    (at 115.0075 91.955 -90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "dorne.kicad_sch")
@@ -6756,7 +6756,7 @@
     (pad "1" smd rect locked (at -1.775 0 270) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "row3") (pinfunction "K") (pintype "passive") (tstamp d2ffa755-a3b8-44a4-85e2-caf272f88d2e))
     (pad "2" smd rect locked (at 1.775 0 270) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 23 "Net-(D19-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e0264065-9122-48ef-b171-6a7106e6185e))
+      (net 24 "Net-(D20-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e0264065-9122-48ef-b171-6a7106e6185e))
     (model "${KIGITHUB3D}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8179,12 +8179,6 @@
   (gr_line (start 230.204661 83.028073) (end 236.3275 83.028073) (layer "Edge.Cuts") (width 0.2) (tstamp ba48b059-63c8-4b48-a88a-0f543635f486))
   (gr_line (start 247.204616 22.028252) (end 241.0775 22.028252) (layer "Edge.Cuts") (width 0.2) (tstamp d49010c1-6773-46b7-817a-1c3772bd7e38))
   (gr_line (start 285.204501 83.028073) (end 279.0775 83.028073) (layer "Edge.Cuts") (width 0.2) (tstamp e45b4b87-46b1-4d4c-9587-bf8ff27804de))
-  (gr_text "Corne Cherry v3.0.1 PCB Designed by foostan" (at 50.2825 58.33) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005dc84d0a)
-    (effects (font (size 1 1) (thickness 0.125)) (justify left))
-  )
-  (gr_text "Corne Cherry v3.0.1 PCB Designed by foostan" (at 211.8325 58.33) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005f186bf6)
-    (effects (font (size 1 1) (thickness 0.125)) (justify left))
-  )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 47a51550-856d-4435-a3a6-a37b03232869)
     (pts (xy 10.5845 117.784) (xy 10.5845 11.984))
     (height -3.3)
