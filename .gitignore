@@ -32,3 +32,4 @@ gerber/
 
 # Backup files (exported from Pcbnew)
 *-backups/
+dorne/pcb/svg
