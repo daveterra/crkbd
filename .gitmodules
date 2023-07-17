@@ -7,3 +7,6 @@
 [submodule "dorne/pcb/nice-nano-kicad"]
 	path = dorne/pcb/nice-nano-kicad
 	url = https://github.com/bstiq/nice-nano-kicad.git
+[submodule "dorne/pcb/buttons"]
+	path = dorne/pcb/buttons
+	url = https://github.com/jgillick/KiCad-library.git
