@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "nicenano")(type "KiCad")(uri "${KIPRJMOD}/nice-nano-kicad")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib/dorn.pretty")(options "")(descr ""))
+  (lib (name "buttons")(type "KiCad")(uri "${KIPRJMOD}/buttons/footprints/Button_Switch.pretty")(options "")(descr ""))
 )
